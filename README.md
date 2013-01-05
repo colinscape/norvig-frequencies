@@ -19,3 +19,14 @@ And to use:
   console.log word for word in words.slice 0, 10
 </pre>
 
+Alternatively, in JavaScript:
+
+<pre>
+  words = require('norvig-frequencies')
+
+  console.log('The 10 most common English words are:')
+  for (var i=0; i < 10; ++i) {
+    console.log(words[i]);
+  }
+</pre>
+
