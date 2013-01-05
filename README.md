@@ -25,7 +25,7 @@ Alternatively, in JavaScript:
   words = require('norvig-frequencies')
 
   console.log('The 10 most common English words are:')
-  for (var i=0; i < 10; ++i) {
+  for (var i=0; i &lt; 10; ++i) {
     console.log(words[i]);
   }
 </pre>
