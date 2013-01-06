@@ -13,6 +13,11 @@
     "frequencies"
   ],
   "author": "Colin Ross <colin@colinscape.com> (http://colinscape.com)",
-  "license": "BSD",
-  "readmeFilename": "README.md"
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "7a9966c231af4ab3e887983eecf8ca0d4098de1b",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pebbol/norvig-frequencies.git"
+  }
 }
