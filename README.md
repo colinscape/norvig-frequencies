@@ -9,13 +9,17 @@ as described by Peter Norvig in his blog post
 Original data
 [published by Peter Norvig](http://norvig.com/google-books-common-words.txt).
 
-## To install:
+## Installation
+
+Installation is by [npm](http://npmjs.org).
 
 <pre>
   $ npm install norvig-frequencies
 </pre>
 
-## And to use (CoffeeScript):
+## Usage
+
+### CoffeeScript
 
 <pre>
   words = require 'norvig-frequencies'
@@ -24,7 +28,7 @@ Original data
   console.log word for word in words.slice 0, 10
 </pre>
 
-Alternatively, in JavaScript:
+### JavaScript
 
 <pre>
   words = require('norvig-frequencies')
