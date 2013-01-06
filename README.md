@@ -1,16 +1,21 @@
 # norvig-frequencies
 
-A list of 97565 words ordered by their decreasing frequency
+A list of 97,565 words ordered by their decreasing frequency
 as described by Peter Norvig in his blog post
 [English Letter Frequency Counts: Mayzner Revisited](http://norvig.com/mayzner.html).
 
-To install:
+## Source
+
+Original data
+[published by Peter Norvig](http://norvig.com/google-books-common-words.txt).
+
+## To install:
 
 <pre>
   $ npm install norvig-frequencies
 </pre>
 
-And to use:
+## And to use (CoffeeScript):
 
 <pre>
   words = require 'norvig-frequencies'
